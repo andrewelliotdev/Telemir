@@ -1,0 +1,57 @@
+{
+  "telegram": {
+    "api_id": "21547934",
+    "api_hash": "da2c2ee5b275108baa85ba14117e59ee",
+    "bot_token": "",
+    "phone_number": "+2347059866955",
+    "session_name": "telegram_mirror_session",
+    "session_string": "1AJWap1wBu1oa8zSoZw0pPVgjSpXyIOQdybj_N1bUquFjxzo5VqFUNg4Ij63ctTZ2Lqr4oDuVjFpEo86dUtQ2IRbo79Hc1EZ2QreugCqX-b_GNmDj59Mr-rlAWQh6Go3-CpwX8_D3MpkcHzliZd6sfwMgOXaHiRZEbsJ72zuSeNxH8R1dhc80rkghzFxq2S-rkl729JtEhIzaQE8t8tplX9baoCbngiPfnKDk1CbIkTpprUeOfr1hkAjFx69q4DbE1b1C4_umoB4vFXyxE5WTH-cljVD8Jl2qYFmV7n4aca9WYhDcIAB7eAi2XKwT3S1IiCG72HVEx1K6YiZeiF7RBdTiWIjWwMM="
+  },
+  "web": {
+    "host": "0.0.0.0",
+    "port": 10000,
+    "admin_password": "admin123"
+  },
+  "bot": {
+    "copy_mode": "clean_copy",
+    "action_delay": 2,
+    "mirror_edits": false,
+    "auto_start": true,
+    "remove_images": false
+  },
+  "channels": {
+    "sources": [
+      "-1002187758812",
+      "-1002350948113",
+      "-1003325350897",
+      "-1001651198638",
+      "-1001276746910"
+    ],
+    "destinations": [
+      "@hexogram18"
+    ],
+    "mappings": {}
+  },
+  "customizations": {
+    "replace_all_urls": true,
+    "global_replacement_url": "https://t.me/hexogram18",
+    "url_rules": [],
+    "replace_all_usernames": false,
+    "global_replacement_username": "@qxadmin",
+    "username_rules": [],
+    "word_rules": [],
+    "remove_all_urls": false,
+    "remove_all_usernames": true,
+    "remove_images": false,
+    "header": "",
+    "footer": "",
+    "blacklist_keywords": [],
+    "whitelist_keywords": []
+  },
+  "stats": {
+    "total_messages_processed": 45,
+    "total_messages_mirrored": 39,
+    "total_messages_skipped": 0,
+    "last_mirrored_at": "2026-10-16 19:07:08"
+  }
+}
